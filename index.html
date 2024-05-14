@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <!-- ************************************************NAVEBAR************************************************ -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-success font-weight-bold logo" href="#">GREEN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ************************************************SLIDER************************************************ -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner slider">
+      <div class="carousel-item active">
+        <img src="image/agriculture-1807581_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidetext">
+          <h3>Welcome to Green</h3>
+          <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.
+            Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+            vel. Minus et tempore modi architecto.</p>
+          <button type="button" class="btn btn-success">Read More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/leaf-1001679_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidetext1">
+          <h3>Lorem Ipsum Dolor</h5>
+            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.
+              Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus
+              deleniti vel. Minus et tempore modi architecto.</p>
+            <button type="button" class="btn btn-success">Read More</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/meadow-4485609_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block slidetext2">
+          <h3>Sequi ea ut et est quaerat</h3>
+          <p> Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.
+            Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+            vel. Minus et tempore modi architecto.</p>
+          <button type="button" class="btn btn-success">Read More</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- ************************************************DETAIL************************************************  -->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="logo">
+          <i class="fa-solid fa-laptop fa-2xl"></i>
+        </div>
+        <div class="txt">
+          <h3>Lorem Ipsum</h3>
+          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+            provident</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="logo">
+          <i class="fa-solid fa-briefcase fa-2xl"></i>
+        </div>
+        <div class="txt">
+          <h3>Dolor Sitema</h3>
+          <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad
+            limino ata</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="logo">
+          <i class="fa-solid fa-calendar-days fa-2xl"></i>
+        </div>
+        <div class="txt">
+          <h3>Sed ut perspiciatis</h3>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+            ntrade stravi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <!-- ************************************************ABOUTUS************************************************ -->
+
+  <div class="container">
+    <div class="about">
+      <h3>ABOUT US</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+        in iste ficiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text21">
+          <h3 class="text-start">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <h5 class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua.</h5>
+          <h5 class="text-start">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+          <h5 class="text-start">Duis aute irure dolor in reprehenderit in voluptate velit.</h5>
+          <h5 class="text-start">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in
+            voluptate
+            trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</h5>
+          <h5 class="text-start">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in
+            voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum</h5>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="img">
+          <img src="image/about.jpg" alt="Not Available" width="600px">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- ************************************************TEAMNAME************************************************ -->
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 tm border border-start-0 border-top-0">
+        <h1>01</h1>
+        <h3 class="text-start">Lorem Ipsum</h3>
+        <h5 class="text-start">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero
+          placeat</h5>
+      </div>
+      <div class="col-md-4 tm border border-top-0">
+        <h1>02</h1>
+        <h3 class="text-start">Repellat Nihil</h3>
+        <h5 class="text-start">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire
+          leno para dest</h5>
+      </div>
+      <div class="col-md-4 tm border border-top-0 border-end-0">
+        <h1>03</h1>
+        <h3 class="text-start">Ad ad velit qui</h3>
+        <h5 class="text-start">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam
+          quis</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 tm border border-start-0 border-bottom-0">
+        <h1>04</h1>
+        <h3 class="text-start">Repellendus molestiae</h3>
+        <h5 class="text-start">Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam
+          mider lando casa</h5>
+      </div>
+      <div class="col-md-4 tm border border-bottom-0">
+        <h1>05</h1>
+        <h3 class="text-start">Sapiente Magnam</h3>
+        <h5 class="text-start">Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus
+          est quibusdam</h5>
+      </div>
+      <div class="col-md-4 tm border border-bottom-0 border-end-0">
+        <h1>06</h1>
+        <h3 class="text-start">Facilis Impedit</h3>
+        <h5 class="text-start">Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae
+          voluptatibus corporis sequi</h5>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************************************************OUR CLIENTS************************************************ -->
+
+
+  <div class="container">
+    <div class="ourclients">
+      <h3>OUR CLIENTS</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+
+  <!-- ************************************************SERVICES************************************************ -->
+
+
+  <div class="container">
+    <div class="services">
+      <h3>SERVICES</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <!-- <div class="col1"> -->
+      <div class="col-md-3 col1 serpart hv border">
+        <i class="fa-solid fa-earth-americas"></i>
+        <h3>Lorem Ipsum</h3>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <!-- </div> -->
+      </div>
+      <div class="col-md-3 col1 serpart hv1 border">
+        <i class="fa-solid fa-sheet-plastic"></i>
+        <h3>Sed Perspiciatis</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+      </div>
+      <div class="col-md-3 col1 serpart hv2 border">
+        <i class="fa-solid fa-gauge"></i>
+        <h3>Magni Dolores</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-3 col1 serpart hv3 border">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Nemo Enim</h3>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+      </div>
+      <div class="col-md-3 col1 serpart hv4 border">
+        <i class="fa-solid fa-tv"></i>
+        <h3>Dele Cardo</h3>
+        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+      </div>
+      <div class="col-md-3 col1  serpart hv5 border">
+        <i class="fa-solid fa-torii-gate"></i>
+        <h3>Divera Don</h3>
+        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ************************************************CALLTOACTION************************************************ -->
+
+  <section class="cta">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-9 text-center text-lg-start">
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.</p>
+        </div>
+        <div class="col-lg-3 cta-btn-container text-center">
+          <button type="button" class="btn btn-outline-light">Call To Action</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ************************************************PORTFOLIO************************************************ -->
+
+
+  <div class="container">
+    <div class="portfolio">
+      <h3>PORTFOLIO</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in
+        iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+  <!-- <div class="col-lg-12 d-flex justify-content-center portbtn">
+    <button type="button" class="btn btn-success">All</button>
+    <button type="button" class="btn btn-outline-success">App</button>
+    <button type="button" class="btn btn-outline-success">Card</button>
+    <button type="button" class="btn btn-outline-success">Web</button>
+  </div> -->
+
+
+
+  <div class="container text-center">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true">ALL</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+          role="tab" aria-controls="nav-profile" aria-selected="false">APP</button>
+        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+          role="tab" aria-controls="nav-contact" aria-selected="false">CARD</button>
+        <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button"
+          role="tab" aria-controls="nav-disabled" aria-selected="false">WEB</button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+
+
+
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div class="im">
+          <section class="blog">
+            <div class="container">
+
+
+              <!-- blog items -->
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-1.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Top Overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-2.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Bottom Overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-3.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Right Overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-6.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Left Overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-5.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Fade in overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-4.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-7.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-8.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-9.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </div>
+
+
+
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+          tabindex="0">
+          <div class="im">
+            <section class="blog">
+              <div class="container">
+
+
+                <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item animated wow fadeIn">
+                      <img src="image/portfolio/portfolio-1.jpg" alt="">
+                      <div class="overlay fade-overlay">
+                        <div class="text">Top Overlay</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item animated wow fadeIn">
+                      <img src="image/portfolio/portfolio-2.jpg" alt="">
+                      <div class="overlay fade-overlay">
+                        <div class="text">Bottom Overlay</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item animated wow fadeIn">
+                      <img src="image/portfolio/portfolio-3.jpg" alt="">
+                      <div class="overlay fade-overlay">
+                        <div class="text">Right Overlay</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+          tabindex="0">
+          <div class="im">
+            <section class="blog">
+              <div class="container">
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-4.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Left Overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-5.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Fade in overlay</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-6.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+          tabindex="0">
+          <div class="im">
+            <section class="blog">
+              <div class="container ">
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-7.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-8.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item animated wow fadeIn">
+                    <img src="image/portfolio/portfolio-9.jpg" alt="">
+                    <div class="overlay fade-overlay">
+                      <div class="text">Image Overlay Title</div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </section>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- ************************************************TEAM************************************************ -->
+
+
+
+
+
+  <div class="container">
+    <div class="team">
+      <h3>TEAM</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+        Sitsint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+        aliasea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="cr1">
+          <div class="card" style="width: 23rem;">
+            <img src="image/team/team-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Walter White</h5>
+              <p class="card-text">Chief Executive Officer</p>
+              <p class="card-text">Magni qui quod omnis unde et eos fuga et exercitationem. Odio
+                veritatis
+                perspiciatis quaerat qui aut aut aut</p>
+              <p class="card-text lo1">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+
+        <div class="cr2">
+          <div class="card " style="width: 23rem;">
+            <img src="image/team/team-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sarah Jhinson</h5>
+              <p class="card-text">Product Manager</p>
+              <p class="card-text">Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus.
+                In architecto rerum rerum temporibus</p>
+              <p class="card-text lo1">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-md-3">
+
+        <div class="cr3">
+          <div class="card text-center" style="width: 23rem;">
+            <img src="image/team/team-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">William Anderson</h5>
+              <p class="card-text">CTO</p>
+              <p class="card-text">Voluptas necessitatibus occaecati quia. Earum totam consequuntur
+                qui porro et laborum toro des clara</p>
+
+              <p class="card-text lo1">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <!-- *************************************************** -->
+
+
+
+
+  <div class="container">
+    <div class="contact">
+      <h3>CONTACT</h3>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+        Sitsint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+        aliasea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="container text-left">
+      <div class="row">
+
+        <div class="col-md-5">
+
+
+          <div class="info">
+            <div class="info1">
+              <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+
+            <div class="info1">
+              <div class="email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+            </div>
+
+            <div class="info1">
+              <div class="phone">
+                <i class="fa-solid fa-mobile"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.631503007048!2d72.50926837477068!3d23.03729856577953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b4922484c6f%3A0xe077cfffcd90ee87!2sTop%20App%20%26%20Web%20Development%20company%20in%20ahmedabad.Summer%20internship%20in%20Php%2CFlutter%2CPython%2CAngularJS%2CReact%20JS%2CNode%20JS%20%2CUI%2FUx!5e0!3m2!1sen!2sin!4v1715576066718!5m2!1sen!2sin"
+                width="420" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required wfd-id="id0">
+                </div>
+
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required wfd-id="id1">
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required wfd-id="id2">
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ************************************************ -->
+
+  <footer class="footer">
+    <div class="container">
+      <h3>Green</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-google-plus-g"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <div class="copyright">
+        © Copyright <strong><span>Green</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#" class="nm21">PHD</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- ********************************************* -->
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
